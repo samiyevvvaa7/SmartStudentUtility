@@ -1,5 +1,6 @@
-﻿     {
-        Console.Clear();
+﻿{
+b:
+    Console.Clear();
         Console.WriteLine("===== Smart Student Utility System =====");
         Console.WriteLine("1. Student Helper");
         Console.WriteLine("2. Salary Calculator");
@@ -77,7 +78,10 @@
                         else
                             Console.WriteLine("F");
                         break;
-                }
+                    case 4 : 
+                    
+                       goto b;
+            }
                 break;
 
 
@@ -128,7 +132,9 @@
                         double yearly = monthly * 12;
                         Console.WriteLine($"Yillik daromad: {yearly}");
                         break;
-                }
+                    case 4:
+                        goto b;
+            }
                 break;
 
 
@@ -184,7 +190,9 @@
                         }
                         Console.WriteLine();
                         break;
-                }
+                    case 4:
+                        goto b;
+            }
                 break;
 
             case 4:
